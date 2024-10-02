@@ -1,0 +1,17 @@
+.Home {
+  display: flex;
+}
+
+.content {
+  margin: 2rem 0 1rem 20rem;
+}
+
+.content > h1 {
+  margin-bottom: 1rem;
+}
+
+.passwordGrid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

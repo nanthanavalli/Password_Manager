@@ -1,0 +1,73 @@
+.Sidebar {
+  position: fixed;
+  height: 100vh;
+  width: 15rem;
+  background-color: rgb(255, 255, 255, 0.1);
+  border-radius: 0 15px 15px 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 7rem;
+  border-radius: 0 15px 0 0;
+  background-color: rgba(138, 48, 255, 0.197);
+}
+
+.header > p {
+  font-size: x-small;
+}
+
+.addPassword_button {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+  background-color: rgb(255, 255, 255, 0.1);
+  border: solid 1px rgb(255, 255, 255, 0.5);
+  border: transparent;
+  box-shadow: 5px 5px 10px 1px rgb(255, 255, 255, 0.05) inset,
+    -5px -5px 10px 1px rgba(0, 0, 0, 0.2) inset;
+  transition: 250ms ease-out;
+
+  &:hover {
+    background-color: rgb(255, 255, 255, 0.2);
+  }
+}
+
+.navDiv {
+  margin-top: 2rem;
+}
+
+.navItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border: transparent;
+  padding: 1rem;
+  width: 95%;
+  border-radius: 0 50px 50px 0;
+  transition: 150ms;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  &.active {
+    background-color: rgba(138, 48, 255, 0.1);
+    &:hover {
+      background-color: rgba(138, 48, 255, 0.15);
+    }
+  }
+}
+
+.navItemIcon{
+  position: absolute;
+  left: 15px;
+  width: 20px;
+  height: 20px;
+}
